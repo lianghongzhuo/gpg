@@ -41,6 +41,7 @@
 #include <gpg/grasp_set.h>
 #include <gpg/local_frame.h>
 
+#include <boost/thread.hpp>
 
 typedef pcl::PointCloud<pcl::PointXYZRGBA> PointCloudRGBA;
 typedef pcl::PointCloud<pcl::PointNormal> PointCloudPointNormal;

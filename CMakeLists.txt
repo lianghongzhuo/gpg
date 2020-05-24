@@ -79,7 +79,8 @@ target_link_libraries(${PROJECT_NAME}_local_frame
 target_link_libraries(${PROJECT_NAME}_plot 
                       ${PROJECT_NAME}_cloud_camera 
                       ${PROJECT_NAME}_grasp_set 
-                      ${PROJECT_NAME}_local_frame)
+                      ${PROJECT_NAME}_local_frame
+                      boost_thread)
 
 target_link_libraries(${PROJECT_NAME}_grasp_candidates_generator 
                       ${PROJECT_NAME}_hand_search)
